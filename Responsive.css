@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.firstofhead {
+    display: flex;
+}
+
+.firstofhead div {
+    padding: 12px 24px;
+}
+
+.firstofhead div:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+}
+
+.more {
+    position: absolute;
+    width: 200px;
+    bottom: -16px;
+    left: 0;
+    padding: 4px;
+    transform: translateY(100%);
+    background-color: white;
+    color: black;
+    list-style: none;
+    display: none;
+}
+
+.list:hover .more {
+    display: block;
+}
+
+.more li {
+    padding: 8px 16px;
+}
+
+.more li:hover {
+    background-color: #ccc;
+}
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* luôn đc hiện lên đầu */
+}
+
+.search i {
+    padding: 12px 24px;
+    height: 100%;
+}
+
+.search i:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.line {
+    display: none;
+}
+
+.advertisement {
+    margin-top: 48px;
+}
+
+.theBand {
+    padding: 64px 16px;
+}
+
+.theBandText {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.theBandTitle {
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.theBandSlogan {
+    text-align: center;
+}
+
+.theBandSpeech {
+    text-align: justify;
+    font-size: 15px;
+    max-width: fit-content;
+    margin: 15px 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.theBandImage {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Product {
+    display: flex;
+    justify-content: center;
+}
+
+.Product img {
+    border-radius: 5px;
+    width: 60%;
+}
+.Name {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Selling {
+    background-color: black;
+    padding: 64px 16px;
+}
+
+.SellingTitle {
+    letter-spacing: 4px;
+    color: white;
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+}
+
+.SellingAttention {
+    margin: 15px 0;
+    text-align: center;
+    opacity: 0.6;
+    color: #ccc;
+}
+
+.SellingAnnoucement {
+    background-color: white;
+    max-width: 768px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.Annouce {
+    list-style: none;
+    padding: 0;
+}
+
+.Annouce li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+
+.backgroundred {
+    margin-left: 16px;
+    padding: 2px 8px;
+    background-color: red;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.circle {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50%;
+}
+
+.SellingTransaction {
+    display: flex;
+    justify-content: center;
+    padding: 32px 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 0 8px;
+    border-radius: 0;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px !important;
+    
+}
+
+.card-img-top {
+    background-color: black; 
+}
+
+.card-img-top:hover {
+    opacity: 0.4 ;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: #ccc;
+}
+
+.theBandAddress {
+    max-width: 800px;
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+
+.theBandAddress h2 {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+
+.theBandAddress p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.AddressDropNote {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theBandContact {
+    margin-bottom: 16px;
+}
+
+.inAline {
+    display: flex;
+    margin: 0 -16px 8px -16px;
+    padding: 0 8px;
+}
+
+.NameLine {
+    padding: 0 8px;
+}
+
+.fix {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.MailLine {
+    padding: 0 8px;
+}
+
+.longline {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px;
+}
+
+.Sending {
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    float: right;
+    border: 0;
+}
+.Sending:hover {
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+
+.theBandFinal {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 64px 0;
+    font-size: 24px;
+}
+
+.sources {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #737373;
+}
+
+.sources a {
+    color: #737373;
+}
+
+.fa:hover {
+    color: #ccc;
+}
+
+@media screen and (max-width: 600px) {     
+    .glass {
+        display: none;
+    }
+    .line {
+        display: block;
+    }
+    .phone {
+        display: none;
+    }
+    .small {
+        flex-direction: column; 
+    }
+    .theBandEnding img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .theBandAddress div {
+        flex-direction: column;
+    }
+    .fix {
+        width: 100%;
+    }
+}
+

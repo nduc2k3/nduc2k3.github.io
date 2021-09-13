@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linking i{ 
+    padding: 8px 16px;
+}
+
+.searching i {
+    padding: 8px 16px;
+}
+
+.linking i:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.searching i:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.HeadTitle {
+    text-align: center;
+}
+
+.HeadTitle h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+} 
+
+.HeadTitle h6 {
+    font-size: 16px;
+}
+
+.HeadTitle h6 span {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.HeadLinking {
+    position: relative;
+}
+
+.Sub4Me {
+    padding: 12px 24px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+.SubName {
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.SubBlog {
+    font-size: 64px;
+}
+
+.sendSub {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ccc;
+    color: black;
+    border: 0;
+    opacity: 0.6;
+}
+
+.sendSub:hover {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        display: none;
+    }
+}
